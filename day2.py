@@ -5,11 +5,6 @@ import sqlalchemy as db
 from pyyoutube import Api
 
 
-
-API_KEY= "AIzaSyAr57EoQGSk5pW7WnpxblC0Q_7xcHtKXNw"
-#not sure if necessary
-api = Api(api_key="AIzaSyAr57EoQGSk5pW7WnpxblC0Q_7xcHtKXNw")
-
 url='https://www.googleapis.com/youtube/v3/videos'
 
 parameters = {
